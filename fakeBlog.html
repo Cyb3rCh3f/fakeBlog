@@ -1,0 +1,86 @@
+<!-- Create a fake blog using only HTML. Your blog can be about anything! Your hobbies, your favorite sports team/player, your favorite tv show, etc. Your blog can look however you want it to look, but your document should use the following tags at the least:
+
+HTML
+head, title, meta description, 
+body, div, a, p, h1, ul, li, table (including thead, td, tbody, tr)
+At the bottom of the page, create a fake survey form that uses the following tags:
+form, select, input type="text", input type="checkbox", input type="radio", input type="submit".
+You can use one of the Lorem Ipsum generators for dummy text. Here is an example of how you may want your blog to look: -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fakeBlog</title>
+</head>
+
+<body>
+    <h1>My First Food Cost App</h1>
+    <p>Thankyou for visiting yousouxchef.com. As i grow and learn so will this site. Please report any issues you are
+        having. It is my mission to give chefs the tools needed to perform their tasks easily and <a
+            href="https://en.wikipedia.org/wiki/Efficiency_(statistics)">efficiecy</a>.
+    </p>
+    <p> For now i have a simple form to help you with calculating your food cost.
+    <div>
+        Food Cost Percentage = (Beginning Inventory + Purchases – Ending Inventory) ÷ Food Sales
+    </div>
+    </p>
+    <table style="width:50%">
+        <thead>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Smith</td>
+                <td>smith</td>
+                <td>50</td>
+            </tr>
+
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <ul>
+        <label for="list">Why you need yoursouxchef.com</label>
+        <li>That which you pay attention to gets attention.</li>
+        <li>It puts the restaurateur in control.</li>
+        <li>Use the prosses that the chains have spent millions in R/D</li>
+        <li>list</li>
+    </ul>
+
+    <ol>
+        <label for="threeImportantAspectsOf">There are three important aspects to food costing:</label>
+        <li>Price</li>
+        <li>Recipe mix</li>
+        <li>Tracking</li>
+    </ol>
+    <label for="bug_Report">Are you having issues?</label>
+    <form action="">
+        <label for="Yes">Yes</label>
+        <input type="radio" name="bug_Report" id="bug_Report">
+        <label for="no">No</label>
+        <input type="radio" name="bug_Report" id="bug_Report"><br>
+        <label for="textarea">What seems to be the problem?</label><br>
+        <textarea name="bug_Report" id="bug_Report" cols="30" rows="10"></textarea>
+    </form>
+    <form action="">
+        <p>How would you rate this site?</p>
+        <label for="How would you rate this web-site?">Points
+            (0 to 10);</label><br>
+        <input type="range" name="points" id="points" min="0" max="10">
+    </form>
+    <input type="submit" value="Submit">
+</body>
+
+</html>
